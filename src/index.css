@@ -1,0 +1,147 @@
+/* ====== GLOBAL ====== */
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url(src/assets/img/bg.webp.jpg) center/cover no-repeat fixed;
+  background-color: #091a3d;
+  margin: 0;
+  padding: 0;
+}
+
+/* Títulos estilo Pokémon */
+.pokemon-title {
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* ====== CARDS ====== */
+.cardsize {
+  width: 15rem;
+  border-radius: 16px;
+  border: 1px solid #fcfcfc;
+  background: #53a5d4c5;
+  backdrop-filter: blur(4px);
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* Imagen superior del card */
+.imgcard {
+  height: 9rem;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.2));
+}
+
+/* Hover elegante */
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 14px 25px rgba(255, 202, 40, 0.5);
+}
+
+/* ====== CONTENEDORES ====== */
+.containersize {
+  width: 100%;
+  background-color: #1f4da1;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+}
+
+.container-style {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
+}
+
+/* ====== BOTONES ====== */
+.btn-view {
+  background-color: #021027;
+  color: white;
+  border-radius: 12px;
+  transition: 0.25s ease;
+}
+
+.btn-hover:hover {
+  background-color: #FECB02 !important;
+  color: #2b4dbf !important;
+  font-weight: 700;
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.25);
+}
+
+/* Botón favoritos */
+.btn-favorite {
+  color: #555;
+  transition: 0.3s ease;
+}
+
+.btn-favorite:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+.btn-favorite-active {
+  color: red;
+}
+
+/* ===== CURSOR Y SCROLL ===== */
+.pointer {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.pointer:hover {
+  transform: scale(1.1);
+}
+
+.active-scroll {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+/* ===== TIPOGRAFÍA ===== */
+h2 {
+  color: #1a1a1a;
+}
+
+h5 {
+  color: #444;
+}
+
+/* Pixelart items */
+.item-pixel {
+  width: 90px;
+  height: 90px;
+  image-rendering: crisp-edges;
+  align-self: center;
+}
+
+/* ===== COLORES DE TIPOS ===== */
+.bg-normal   { background-color: #A8A77A; }
+.bg-fuego    { background-color: #EE8130; }
+.bg-agua     { background-color: #6390F0; }
+.bg-planta   { background-color: #7AC74C; }
+.bg-eléctrico{ background-color: #F7D02C; }
+.bg-hielo    { background-color: #96D9D6; }
+.bg-lucha    { background-color: #C22E28; }
+.bg-veneno   { background-color: #A33EA1; }
+.bg-tierra   { background-color: #E2BF65; }
+.bg-volador  { background-color: #A98FF3; }
+.bg-psíquico { background-color: #F95587; }
+.bg-bicho    { background-color: #A6B91A; }
+.bg-roca     { background-color: #B6A136; }
+.bg-fantasma { background-color: #735797; }
+.bg-dragón   { background-color: #6F35FC; }
+.bg-siniestro{ background-color: #705746; }
+.bg-acero    { background-color: #B7B7CE; }
+.bg-hada     { background-color: #D685AD; }
+
+/* Tamaño texto pequeño */
+.fs-7 {
+  font-size: 0.9rem;
+}
+
+/* Utilidad */
+.bgcolor {
+  background-color: var(--bs-blue);
+}
